@@ -1,0 +1,15 @@
+variable "repository" {
+  description = "GitHub repository URL for the frontend"
+  type        = string
+}
+
+variable "env" {
+  description = "Deployment environment"
+  type        = string
+}
+
+variable "aws_region" {
+  description = "AWS region"
+  type        = string
+  default     = "us-east-1"
+}
